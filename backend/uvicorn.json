@@ -1,0 +1,4 @@
+{
+  "reload": true,
+  "reload_excludes": ["node_modules", "mock_server.js", "package.json"]
+}
