@@ -7,12 +7,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from dotenv import load_dotenv
 
-# Load env from backend/.env
+# Load env from backend/.env (works locally – on Render you will use real env vars)
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 ENV_PATH = os.path.join(BASE_DIR, ".env")
 load_dotenv(ENV_PATH)
 
-from app.services.llm_service import get_factors  # ← real Groq factors
+from app.services.llm_service import get_factors  # ← uses GROQ_API_KEY inside llm_service
 from app.api.websocket import (
     ws_register,
     ws_unregister,
@@ -40,6 +40,12 @@ class QueryRequest(BaseModel):
 # In-memory runtime stores
 ACTIVE_JOBS = {}       # job_id -> list of factors
 JOB_CLIENTS = {}       # job_id -> [WebSocket]
+
+
+# ✅ Simple health route for Render testing
+@app.get("/")
+def health():
+    return {"status": "ok", "message": "Backend is running"}
 
 
 # ------------------------

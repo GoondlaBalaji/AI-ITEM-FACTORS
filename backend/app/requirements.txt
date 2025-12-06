@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+groq         # if you use Groq SDK
+websockets   # if you use websockets
