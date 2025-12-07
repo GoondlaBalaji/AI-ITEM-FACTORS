@@ -1,19 +1,14 @@
+"use server";
+
 import { NextRequest } from "next/server";
-import chromium from "chrome-aws-lambda";
-import puppeteer from "puppeteer-core";
+import puppeteer from "puppeteer";
 
 export async function POST(req: NextRequest) {
   const { html } = await req.json();
 
-  const executablePath =
-    (await chromium.executablePath) ||
-    process.env.CHROME_PATH; // fallback for Windows dev
-
   const browser = await puppeteer.launch({
-    args: chromium.args,
-    defaultViewport: chromium.defaultViewport,
-    executablePath,
     headless: true,
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
   const page = await browser.newPage();
