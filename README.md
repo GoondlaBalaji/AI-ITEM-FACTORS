@@ -15,8 +15,10 @@ ChatGPT-style web app that breaks down **any item** (laptop, phone, course, etc.
 
 ## 🚀 Live Demo
 
-> 🔗 **Frontend:** `https://<your-vercel-url>.vercel.app`  
+> 🔗 **Frontend:** `https://ai-item-factors.vercel.app/`  
 > 🟣 **Backend API:** `https://ai-item-factors.onrender.com`
+
+_after entering the item in AI website wait for some time to produce output._
 
 _Update these with your real URLs after deployment._
 
@@ -229,11 +231,11 @@ AI-ITEM-FACTORS/
     factors-chart.png
 
 ### Main Chat UI with Factor Breakdown
-![Chat UI](./screenshots/aiimg3.png)
-### Graph
-![Factor Chart](./screenshots/aiimg2.png)
+![Chat UI](./Screenshots/aiimg1.png)
+### Graph and Recommendations
+![Factor Chart](./Screenshots/aiimg2.png)
 ### Explanation with audio 
-![Factor Chart](./screenshots/aiimg3.png)
+![Factor Chart](./Screenshots/aiimg3.png)
 
 ---
 # 🧑‍💻 For Beginners: Mental Model
