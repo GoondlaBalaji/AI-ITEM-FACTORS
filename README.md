@@ -1,6 +1,6 @@
 
 
-# 🍏 AI Item Factor Analyzer
+# 🌐 AI Item Factor Analyzer
 
 ChatGPT-style web app that breaks down **any item** (laptop, phone, course, etc.) into its **top factors**, explains them in plain language, and shows **visual importance charts**.
 
@@ -82,7 +82,7 @@ AI-ITEM-FACTORS/
 │
 └── README.md                     # You are here
 ```
-
+----
 # 🛠 Local Development
 ## 1. Clone the Repo
 ```
@@ -146,6 +146,7 @@ http://localhost:3000
 
 You should see the AI Item Factor Analyzer UI.
 
+---
 # ☁️ Deployment Guide
 ## 1️⃣ Push to GitHub
 
@@ -220,19 +221,21 @@ Now your frontend talks to the Render backend in the cloud.
 
 
 
-
+---
 # 📸 Screenshots
 AI-ITEM-FACTORS/
   screenshots/
     homepage-dark.png
     factors-chart.png
 
-### Main Chat UI
-![Chat UI](./screenshots/homepage-dark.png)
-### Factor Breakdown
-![Factor Chart](./screenshots/factors-chart.png)
+### Main Chat UI with Factor Breakdown
+![Chat UI](./screenshots/aiimg3.png)
+### Graph
+![Factor Chart](./screenshots/aiimg2.png)
+### Explanation with audio 
+![Factor Chart](./screenshots/aiimg3.png)
 
-
+---
 # 🧑‍💻 For Beginners: Mental Model
 
 - GitHub = your code storage & history
@@ -253,28 +256,29 @@ Flow:
 
 - Users visit your Vercel URL and the site calls Render’s API
 
-🤝 Contributing / Ideas
+---
+# 🤝 Contributing / Ideas
 
 Things you (or others) can add next:
 
-🔐 Proper login / signup flow (Firebase Auth)
+- 🔐 Proper login / signup flow (Firebase Auth)
 
-💾 Chat history (PostgreSQL, Firebase Firestore, or Supabase)
+- 💾 Chat history (PostgreSQL, Firebase Firestore, or Supabase)
 
-📤 Image upload + visual factor analysis
+- 📤 Image upload + visual factor analysis
 
-🌓 Theme toggle (dark / light)
+- 🌓 Theme toggle (dark / light)
 
-📈 Analytics (PostHog / Vercel Analytics)
+- 📈 Analytics (PostHog / Vercel Analytics)
 
 PRs / issues are welcome once this repo is public.
-
-⭐ If You Like This
+---
+# ⭐ If You Like This
 
 If you’re checking this from my GitHub profile:
 
-Drop a ⭐ on the repo
+- Drop a ⭐ on the repo
 
-Fork it and build your own version
+- Fork it and build your own version
 
-Use this as a template for your own AI-powered analysis tools
+- Use this as a template for your own AI-powered analysis tools
