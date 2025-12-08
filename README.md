@@ -15,10 +15,10 @@ ChatGPT-style web app that breaks down **any item** (laptop, phone, course, etc.
 
 ## 🚀 Live Demo
 
-> 🔗 **Frontend:** `https://ai-item-factors.vercel.app/`  
-> 🟣 **Backend API:** `https://ai-item-factors.onrender.com`
+> 🔗 **Frontend:** https://ai-item-factors.vercel.app/  
+> 🟣 **Backend API:** https://ai-item-factors.onrender.com
 
-_after entering the item in AI website wait for some time to produce output._
+_after entering the item in AI website wait for some time to produce output , because i used free instance in render it may take > 50s ._
 
 _Update these with your real URLs after deployment._
 
@@ -88,7 +88,7 @@ AI-ITEM-FACTORS/
 # 🛠 Local Development
 ## 1. Clone the Repo
 ```
-git clone https://github.com/<your-username>/AI-ITEM-FACTORS.git
+git clone https://github.com/GoondlaBalaji/AI-ITEM-FACTORS.git
 cd AI-ITEM-FACTORS
 ```
 ## 2. Backend Setup (FastAPI + Groq)
@@ -111,7 +111,7 @@ backend/.env
 ```
 ```
 GROQ_API_KEY=your_groq_api_key_here
-ALLOWED_ORIGIN=https://<your-vercel-frontend>.vercel.app
+ALLOWED_ORIGIN=https://ai-item-factors.vercel.app/
 ```
 
 - Run the backend locally:
@@ -157,7 +157,7 @@ You should see the AI Item Factor Analyzer UI.
 git add .
 git commit -m "Initial AI Item Factor Analyzer"
 git branch -M main
-git remote add origin https://github.com/<your-username>/AI-ITEM-FACTORS.git
+git remote add origin https://github.com/GoondlaBalaji/AI-ITEM-FACTORS.git
 git push -u origin main
 ```
 
@@ -225,10 +225,7 @@ Now your frontend talks to the Render backend in the cloud.
 
 ---
 # 📸 Screenshots
-AI-ITEM-FACTORS/
-  screenshots/
-    homepage-dark.png
-    factors-chart.png
+
 
 ### Main Chat UI with Factor Breakdown
 ![Chat UI](./Screenshots/aiimg1.png)
@@ -265,7 +262,7 @@ Things you (or others) can add next:
 
 - 🔐 Proper login / signup flow (Firebase Auth)
 
-- 💾 Chat history (PostgreSQL, Firebase Firestore, or Supabase)
+- 💾 Chat history (PostgreSQL, Firebase Firestore, or Supabase) --> i am working on it
 
 - 📤 Image upload + visual factor analysis
 
