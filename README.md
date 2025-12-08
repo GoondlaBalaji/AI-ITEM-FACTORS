@@ -2,7 +2,7 @@
 
 # 🌐 AI Item Factor Analyzer
 
-ChatGPT-style web app that breaks down **any item** (laptop, phone, course, etc.) into its **top factors**, explains them in plain language, and shows **visual importance charts**.
+Introducing a web app that breaks down **any item** (laptop, phone, course, etc.) into its **top factors**, explains them in plain language, and shows **visual importance charts**.
 
 - 💬 Chat-style interface — AI on left, you on right  
 - 📊 Beautiful factor importance graph  
