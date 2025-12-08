@@ -19,8 +19,7 @@ Introducing a web app that breaks down **any item** (laptop, phone, course, etc.
 > 🟣 **Backend API:** https://ai-item-factors.onrender.com
 
 _after entering the item in AI website wait for some time to produce output , because i used free instance in render it may take > 50s ._
-
-_Update these with your real URLs after deployment._
+_open is desktop site for a better experience and UI._
 
 ---
 
