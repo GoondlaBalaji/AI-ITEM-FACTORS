@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="./Screenshots/bannerimgai.jpg" width="100%" alt="AI Item Factor Analyzer Banner" />
-</p>
-
-
 # 🌐 AI Item Factor Analyzer
 
 Introducing a web app that breaks down **any item** (laptop, phone, course, etc.) into its **top factors**, explains them in plain language, and shows **visual importance charts**.
