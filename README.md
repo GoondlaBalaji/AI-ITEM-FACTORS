@@ -1,4 +1,4 @@
-
+![Chat UI](./Screenshots/aiimg1.png)
 
 # 🌐 AI Item Factor Analyzer
 
